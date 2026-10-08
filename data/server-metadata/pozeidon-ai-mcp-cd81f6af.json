@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/server-metadata.schema.json",
+  "id": "pozeidon-ai-mcp-cd81f6af",
+  "source": {
+    "issue": 3328,
+    "projectUrl": "https://www.pozeidon.ai/mcp"
+  },
+  "links": {
+    "endpoint": "https://pozeidon.ai/mcp"
+  },
+  "transport": [
+    "streamable-http"
+  ],
+  "auth": {
+    "type": "oauth",
+    "notes": [
+      "oauth"
+    ]
+  },
+  "clients": [
+    "Claude (web",
+    "desktop",
+    "mobile)",
+    "ChatGPT (developer mode connectors)",
+    "Claude Code",
+    "VS Code (GitHub Copilot agent mode)",
+    "OpenAI Codex"
+  ],
+  "license": "Proprietary (hosted service)"
+}
